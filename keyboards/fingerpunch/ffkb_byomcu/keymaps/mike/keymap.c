@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 // Mike Config
 [_QWERTY] = LAYOUT_ffkb(
-  KC_TAB,  KC_Q,  KC_W, KC_E, KC_R, KC_T,         KC_Y,    KC_U,         KC_I,         KC_O,         KC_P,             KC_BSPC,
+  KC_TAB,  KC_Q,  KC_W, KC_E, KC_R, KC_T,         KC_Y,  KC_U,         KC_I,         KC_O,         KC_P,             KC_BSPC,
   KC_LSFT,  KC_A, KC_S, KC_D, KC_F, KC_G,         KC_H, KC_J, KC_K, KC_L, KC_SCLN,  KC_QUOT,
   LCTL_T(KC_ESC), KC_Z, KC_X, KC_C, KC_V,         KC_B,         KC_N,    KC_M,         KC_COMM,      KC_DOT,       KC_SLSH,   RSFT_T(KC_ENT),
           KC_MUTE,      KC_BSLS,        LALT_T(KC_LGUI),       LT(_SYMBOLS,KC_HOME),  LT(_NUMBERS,KC_END),   KC_SPC,       KC_DEL,       LCTL(KC_BSPC),
@@ -84,7 +84,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  LSFT(KC_GRV), LSFT(KC_1),    LSFT(KC_2),   LSFT(KC_3), LSFT(KC_4),  LSFT(KC_5),           LSFT(KC_6), LSFT(KC_7),    LSFT(KC_8),    LSFT(KC_9),    LSFT(KC_0),    _______,
   _______,     LSFT(KC_MINS), LSFT(KC_EQL), _______,    _______,     KC_BTN1,              KC_BTN2,    LSFT(KC_MINS), LSFT(KC_EQL),  LSFT(KC_LBRC), LSFT(KC_RBRC), _______,
   _______,     _______,       _______,      _______,    KC_BTN3,     KC_BTN1,              KC_BTN2, _______, _______, _______, _______, _______,
-                    _______, _______, _______, _______,      , _______, _______, _______,
+                    _______, _______, _______, _______,     _______, _______, _______, _______,
                                                       _______
 ),
 

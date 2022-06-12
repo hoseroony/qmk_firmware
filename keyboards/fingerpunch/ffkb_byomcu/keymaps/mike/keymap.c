@@ -81,9 +81,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 
 [_SYMBOLS] = LAYOUT_ffkb(
- LSFT(KC_GRV),  LSFT(KC_1),    LSFT(KC_2),   LSFT(KC_3), LSFT(KC_4), LSFT(KC_5), LSFT(KC_6), LSFT(KC_7),    LSFT(KC_8),    LSFT(KC_9),    LSFT(KC_0),    _______,
-  _______,        LSFT(KC_MINS), LSFT(KC_EQL), KC_BTN1,      KC_BTN2,      _______,      _______,      LSFT(KC_MINS), LSFT(KC_EQL),  LSFT(KC_LBRC), LSFT(KC_RBRC), _______,
-  _______, _______, _______, _______, KC_BTN3, KC_BTN1,      KC_BTN2, _______, _______, _______, _______, _______,
+ LSFT(KC_GRV), LSFT(KC_1),    LSFT(KC_2),   LSFT(KC_3), LSFT(KC_4),  LSFT(KC_5),           LSFT(KC_6), LSFT(KC_7),    LSFT(KC_8),    LSFT(KC_9),    LSFT(KC_0),    _______,
+  _______,     LSFT(KC_MINS), LSFT(KC_EQL), _______,    _______,     KC_BTN1,              KC_BTN2,    LSFT(KC_MINS), LSFT(KC_EQL),  LSFT(KC_LBRC), LSFT(KC_RBRC), _______,
+  _______,     _______,       _______,      _______,    KC_BTN3,     KC_BTN1,              KC_BTN2, _______, _______, _______, _______, _______,
                     _______, _______, _______, _______,      MO(_ADJUST), _______, _______, _______,
                                                       _______
 ),
